@@ -31,6 +31,7 @@ void loop(){
     }
   }
 
-  bluetooth.write(5);
+  bluetooth.write("testeEnviadoViaHC05");
+  bluetooth.write("\n");
   delay(1000);
 }
